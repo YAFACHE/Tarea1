@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colegio Alvaro Contreras</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Bootstrap iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Alvaro Contreras</a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#menu" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <section class="bg-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-md-7">
+            <h1 class="display-4 text-danger fw-bold">Bienvenido al Colegio Alvaro Contreras</h1>
+            <p class="lead mt-3">
+            Somos una institución educativa comprometida con la formación integral de nuestros estudiantes, brindando servicios de calidad y fomentando el desarrollo académico, tecnológico y humano en Santa Rosa de Copán.
+            </p>
+        </div>
+        <div class="col-md-5 text-center">
+            <img src="img/LogoAlvaro.jpg" alt="Logo Colegio Alvaro Contreras" class="img-fluid rounded shadow" style="max-width: 300px;">
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Servicios destacados -->
+    <section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+        <h2 class="fw-bold text-danger mb-3" id="servicios">Carreras Principales</h2>
+        <p class="lead">
+            En <strong>Colegio Alvaro Contreras</strong> ofrecemos las siguientes carreras técnicas y académicas para el desarrollo integral de nuestros estudiantes:
+        </p>
+        <ul class="list-inline mt-4">
+            <li class="list-inline-item mx-3">
+            <i class="bi bi-pc-display-horizontal fs-3 text-danger"></i><br>
+            <span class="fw-semibold">Informática</span>
+            </li>
+            <li class="list-inline-item mx-3">
+            <i class="bi bi-calculator-fill fs-3 text-danger"></i><br>
+            <span class="fw-semibold">Contaduría</span>
+            </li>
+            <li class="list-inline-item mx-3">
+            <i class="bi bi-heart-pulse-fill fs-3 text-danger"></i><br>
+            <span class="fw-semibold">Salud</span>
+            </li>
+            <li class="list-inline-item mx-3">
+            <i class="bi bi-people-fill fs-3 text-danger"></i><br>
+            <span class="fw-semibold">Humanidades</span>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+<!-- Tarjetas -->
+<h2 id="platillos" class="text-center text-uppercase mt-2">PROYECTOS ALVARO CONTRERAS</h2>
+<p  class="text-center p-2">Estos han sido los mayores proyectos en los que han participado cada area del instituto</p>
+<div class="container bg-gradient">
+    <div class="row d-flex justify-content-between">
+            <div class="card" style="width: 15rem;">
+                <img src="img/proyectoinfo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">INFORMARICA</h5>
+                    <p class="card-text">El area de informatica ha restaurado las canchas del colegio en el año 2020</p>
+                    </div>
+                </div>
+            <div class="card" style="width: 15rem;">
+                <img src="img/proyectoconta.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CONTADURIA</h5>
+                    <p class="card-text">El area de contaduria ha hecho una nueva aula para elinstituto en el año 2022</p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="img/proyectosalud.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SALUD</h5>
+                    <p class="card-text">El area de salud a donado sillas para un aula necesitada del instituto</p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="img/proyectohumanidades.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HUMANIDADES</h5>
+                    <p class="card-text">EL area de humanidades a hecho nuevos baños para el instituto</p>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="bg-danger text-white text-center text-lg-start mt-4" id="contacto">
+    <div class="container p-4">
+    <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Colegio Alvaro Contreras</h5>
+        <p>
+            Formación académica, tecnológica y humana en Santa Rosa de Copán.<br>
+            ¡Síguenos en nuestras redes sociales!
+        </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contacto</h5>
+        <ul class="list-unstyled mb-0">
+            <li>
+            <i class="bi bi-telephone-fill"></i> (504) 1234-5678
+            </li>
+            <li>
+            <i class="bi bi-envelope-fill"></i> info@colegioalvaro.hn
+            </li>
+        </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Redes Sociales</h5>
+        <a href="#" class="btn btn-outline-light btn-sm m-1" role="button"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="btn btn-outline-light btn-sm m-1" role="button"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="text-center p-3 bg-dark">
+    © 2025 Colegio Alvaro Contreras. Todos los derechos reservados.
+    </div>
+</footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
